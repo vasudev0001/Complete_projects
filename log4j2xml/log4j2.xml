@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="log-path">logs</Property>
+		<Property name="archive">${log-path}/archive</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console-Appender" >
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %C{2} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</Console>
+		<File name="File-Appender" fileName="${log-path}/xmlfilelog.log">
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{2} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Logger name="com.log4j2xml.Log4j2" level="debug">
+			<AppenderRef ref="File-Appender" level="debug" />
+		</Logger>
+		<Root level="debug">
+			<AppenderRef ref="Console-Appender" />
+		</Root>
+	</Loggers>
+</Configuration>

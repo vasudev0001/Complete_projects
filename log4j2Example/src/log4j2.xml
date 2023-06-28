@@ -1,0 +1,33 @@
+<configuration>
+	<properties>
+		<property name="format">%d{[ISO8061]} %C-%m%n</property>
+		<property name="path">C:\Users\91766\Desktop</property>
+	</properties>
+
+	<appenders>
+		<console name="con">
+			<PatternLayout pattern="${format}" />
+		</console>
+		<file name="logtofile" filename="${path}/hello/log1.log">
+			<patternLayout pattern="${format}" />
+		</file>
+		<rollingFIle name="logtoROllingFile"
+			filename="${path}/rollFile/log.log"
+			filepattern="${path}/rollbackup/%i-log.log">
+			<PatternLayout pattern="${format}" />
+			<policies>
+				<SizeBasedTriggeringPolicy size="1kb" />
+			</policies>
+		</rollingFIle>
+	</appenders>
+
+	<loggers>
+		<logger name="log4j2Example.Log4j2" level="debug">
+			<appenderRef ref="logtofile" />
+			<appenderRef ref="logtoROllingFile" />
+		</logger>
+		<root level="debug">
+			<appenderRef ref="con" />
+		</root>
+	</loggers>
+</configuration>

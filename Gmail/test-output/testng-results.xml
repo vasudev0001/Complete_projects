@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Link status: true]]>
+    </line>
+    <line>
+      <![CDATA[Textbox inner text: First name]]>
+    </line>
+    <line>
+      <![CDATA[Textbox inner text: Last name]]>
+    </line>
+    <line>
+      <![CDATA[Textbox inner text: Username]]>
+    </line>
+    <line>
+      <![CDATA[Textbox inner text: Password]]>
+    </line>
+    <line>
+      <![CDATA[inner text in all text boxes are displayed correctly]]>
+    </line>
+    <line>
+      <![CDATA[username text: Username]]>
+    </line>
+    <line>
+      <![CDATA[username mail text: @gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Button text: Next]]>
+    </line>
+    <line>
+      <![CDATA[Link text: Sign in instead]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-27T21:55:32 IST" name="Default suite" finished-at="2023-01-27T21:55:43 IST" duration-ms="10788">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T21:55:32 IST" name="Default test" finished-at="2023-01-27T21:55:43 IST" duration-ms="10788">
+      <class name="gamil.GmailLink">
+        <test-method signature="main()[pri:0, instance:gamil.GmailLink@21282ed8]" started-at="2023-01-27T21:55:32 IST" name="main" finished-at="2023-01-27T21:55:43 IST" duration-ms="10741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Link status: true]]>
+            </line>
+            <line>
+              <![CDATA[Textbox inner text: First name]]>
+            </line>
+            <line>
+              <![CDATA[Textbox inner text: Last name]]>
+            </line>
+            <line>
+              <![CDATA[Textbox inner text: Username]]>
+            </line>
+            <line>
+              <![CDATA[Textbox inner text: Password]]>
+            </line>
+            <line>
+              <![CDATA[inner text in all text boxes are displayed correctly]]>
+            </line>
+            <line>
+              <![CDATA[username text: Username]]>
+            </line>
+            <line>
+              <![CDATA[username mail text: @gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Button text: Next]]>
+            </line>
+            <line>
+              <![CDATA[Link text: Sign in instead]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- gamil.GmailLink -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

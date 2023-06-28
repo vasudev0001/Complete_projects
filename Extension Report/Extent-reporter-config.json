@@ -1,0 +1,14 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "OrangeHRM",
+  "reportName": "Reporter: vasudev",
+  "timeStampFormat": "dd-mm-yyyy HH:mm:ss",
+  "js": "document.getElementsByClassName('logo')[0].style.display='none';",
+  "css": ".pass-bg, .avatar.pass {background-color:#2b31d0;}",
+  "css": ".pass-bg, .avatar.pass {background-color:#04a729;}"
+}

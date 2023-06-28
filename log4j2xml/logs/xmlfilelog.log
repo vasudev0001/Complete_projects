@@ -1,0 +1,5 @@
+[DEBUG] 2022-12-29 21:44:06.553 [main] log4j2xml.Log4j2 - debug
+[INFO ] 2022-12-29 21:44:06.556 [main] log4j2xml.Log4j2 - ok
+[WARN ] 2022-12-29 21:44:06.557 [main] log4j2xml.Log4j2 - warn
+[ERROR] 2022-12-29 21:44:06.558 [main] log4j2xml.Log4j2 - invalid
+[FATAL] 2022-12-29 21:44:06.558 [main] log4j2xml.Log4j2 - blocked

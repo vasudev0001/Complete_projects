@@ -1,0 +1,6 @@
+baseTestEcommerce\Retry.class
+javaTest\AddToChart.class
+javaTest\ErrorValidations.class
+baseTestEcommerce\TestNgListeners.class
+baseTestEcommerce\BaseTest.class
+baseTestEcommerce\BaseTest$1.class

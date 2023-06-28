@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>TestNG:  verify the text box error message</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>verify the text box error message</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 25 16:55:18 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40545 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='gamil.CreateAccountErrorMsg.nextbutton()'><b>nextbutton</b><br>Test class: gamil.CreateAccountErrorMsg<br>Parameters: , , , <br/>
+<a href="#Output-19578363" onClick='toggleBox("Output-19578363", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-19578363" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-19578363">
+Link status: true<br/>
+error message: Enter first name and surname<br/>
+It display correct error message<br/>
+error message: Choose a Gmail address<br/>
+It display correct error message<br/>
+error message: Enter a password<br/>
+It display correct error message<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>gamil.CreateAccountErrorMsg@bae7dc0</td></tr>
+<tr>
+<td title='gamil.CreateAccountErrorMsg.nextbutton()'><b>nextbutton</b><br>Test class: gamil.CreateAccountErrorMsg<br>Parameters: , vd, seleniumTool, pW@1209876<br/>
+<a href="#Output-1242969461" onClick='toggleBox("Output-1242969461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1242969461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1242969461">
+Link status: true<br/>
+error message: Enter first name<br/>
+It display correct error message<br/>
+error message: That username is taken. Try another.<br/>
+It display correct error message<br/>
+error message: Confirm your password<br/>
+It display correct error message<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>gamil.CreateAccountErrorMsg@bae7dc0</td></tr>
+<tr>
+<td title='gamil.CreateAccountErrorMsg.nextbutton()'><b>nextbutton</b><br>Test class: gamil.CreateAccountErrorMsg<br>Parameters: k, vd, seleniumTool.test, password@1234<br/>
+<a href="#Output-1872417052" onClick='toggleBox("Output-1872417052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1872417052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1872417052">
+Link status: true<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>gamil.CreateAccountErrorMsg@bae7dc0</td></tr>
+<tr>
+<td title='gamil.CreateAccountErrorMsg.nextbutton()'><b>nextbutton</b><br>Test class: gamil.CreateAccountErrorMsg<br>Parameters: k, vd, seleniumTool, pW@12<br/>
+<a href="#Output-1064315206" onClick='toggleBox("Output-1064315206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1064315206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1064315206">
+Link status: true<br/>
+error message: Use 8 characters or more for your password<br/>
+It display correct error message<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>gamil.CreateAccountErrorMsg@bae7dc0</td></tr>
+</table><p>
+</body>
+</html>

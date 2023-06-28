@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-31T23:38:43 IST" name="Default suite" finished-at="2022-12-31T23:38:45 IST" duration-ms="1325">
+    <groups>
+    </groups>
+    <test started-at="2022-12-31T23:38:43 IST" name="Default test" finished-at="2022-12-31T23:38:45 IST" duration-ms="1325">
+      <class name="tests.Test1">
+        <test-method signature="testDataProvider(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.Test1@50eac852]" started-at="2022-12-31T23:38:45 IST" name="testDataProvider" data-provider="hello" finished-at="2022-12-31T23:38:45 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vasuK1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vasudevK@09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.Test1@50eac852]" started-at="2022-12-31T23:38:45 IST" name="testDataProvider" data-provider="hello" finished-at="2022-12-31T23:38:45 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vasudev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*Enter Valid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.Test1@50eac852]" started-at="2022-12-31T23:38:45 IST" name="testDataProvider" data-provider="hello" finished-at="2022-12-31T23:38:45 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*Email is required,*Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.Test1@50eac852]" started-at="2022-12-31T23:38:45 IST" name="testDataProvider" data-provider="hello" finished-at="2022-12-31T23:38:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[*Enter Valid Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+        <test-method signature="testDataProvider(java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.Test1@50eac852]" started-at="2022-12-31T23:38:45 IST" name="testDataProvider" data-provider="hello" finished-at="2022-12-31T23:38:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vasuK1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Incorrect email or password. ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDataProvider -->
+      </class> <!-- tests.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

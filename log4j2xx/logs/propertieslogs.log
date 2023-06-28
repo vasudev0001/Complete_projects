@@ -1,0 +1,60 @@
+[main] - [INFO] : 2022-08-06 17:49:56.376  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : 2022-08-06 17:49:56.382  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : 2022-08-06 17:49:56.383  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : 2022-08-06 17:49:56.383  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : 2022-08-06 17:49:56.383  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : 2022-08-06 17:49:56.384  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : 2022-08-06 17:51:57.597  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : 2022-08-06 17:51:57.599  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : 2022-08-06 17:51:57.600  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : 2022-08-06 17:51:57.600  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : 2022-08-06 17:51:57.600  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : 2022-08-06 17:51:57.600  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : 2022-08-06 17:52:15.110  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : 2022-08-06 17:52:15.113  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : 2022-08-06 17:52:15.113  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : 2022-08-06 17:52:15.114  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : 2022-08-06 17:52:15.114  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : 2022-08-06 17:52:15.114  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : 2022-08-06 17:52:26.951  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : 2022-08-06 17:52:26.954  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : 2022-08-06 17:52:26.954  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : 2022-08-06 17:52:26.954  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : 2022-08-06 17:52:26.955  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : 2022-08-06 17:52:26.955  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : [2022-08-06 17:57:04.004]  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : [2022-08-06 17:57:04.004]  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : [2022-08-06 17:57:04.004]  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : [2022-08-06 17:57:04.004]  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : [2022-08-06 17:57:04.004]  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : [2022-08-06 17:57:04.004]  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : [2022-08-06 17:57:42.825]  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : [2022-08-06 17:57:42.827]  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : [2022-08-06 17:57:42.828]  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : [2022-08-06 17:57:42.828]  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : [2022-08-06 17:57:42.828]  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : [2022-08-06 17:57:42.828]  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : [2022-08-06 17:59:19.935]  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : [2022-08-06 17:59:19.937]  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : [2022-08-06 17:59:19.938]  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : [2022-08-06 17:59:19.938]  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : [2022-08-06 17:59:19.938]  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : [2022-08-06 17:59:19.939]  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : [2022-08-06 21:35:29.006]  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : [2022-08-06 21:35:29.025]  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : [2022-08-06 21:35:29.025]  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : [2022-08-06 21:35:29.026]  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : [2022-08-06 21:35:29.026]  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : [2022-08-06 21:35:29.027]  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : [2022-10-13 11:19:18.338]  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : [2022-10-13 11:19:18.358]  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : [2022-10-13 11:19:18.359]  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : [2022-10-13 11:19:18.359]  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : [2022-10-13 11:19:18.359]  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : [2022-10-13 11:19:18.360]  com.log4j2xx.Log4j2xx - home page is displayed
+[main] - [INFO] : [2023-06-03 21:37:24.514]  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : [2023-06-03 21:37:24.521]  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : [2023-06-03 21:37:24.521]  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : [2023-06-03 21:37:24.521]  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : [2023-06-03 21:37:24.522]  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : [2023-06-03 21:37:24.522]  com.log4j2xx.Log4j2xx - home page is displayed

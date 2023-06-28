@@ -1,0 +1,6 @@
+[main] - [INFO] : 2022-08-06 17:43:02.833  com.log4j2xx.Log4j2xx - Browser launched
+[main] - [INFO] : 2022-08-06 17:43:02.836  com.log4j2xx.Log4j2xx - url Entered
+[main] - [INFO] : 2022-08-06 17:43:02.836  com.log4j2xx.Log4j2xx - user name entered
+[main] - [INFO] : 2022-08-06 17:43:02.836  com.log4j2xx.Log4j2xx - password entered
+[main] - [INFO] : 2022-08-06 17:43:02.837  com.log4j2xx.Log4j2xx - click on submit button
+[main] - [INFO] : 2022-08-06 17:43:02.837  com.log4j2xx.Log4j2xx - home page is displayed

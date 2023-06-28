@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="Error valdation(failed)">
+    <groups>
+      <run>
+        <include name="Error Handling"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="javaTest.ErrorValidations">
+        <methods>
+          <include name="verifyLoginErrorMessage"/>
+          <include name="verifyProductAddingMsg"/>
+          <include name="closeApplication"/>
+          <include name="launchApplcation"/>
+        </methods>
+      </class> <!-- javaTest.ErrorValidations -->
+    </classes>
+  </test> <!-- Error valdation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

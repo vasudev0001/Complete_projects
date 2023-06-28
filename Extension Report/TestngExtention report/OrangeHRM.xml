@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test1">
+	<test name="orangeHRM home page">
+	<parameter name ="author" value ="vasudev"/>
+		<classes>
+			<class name="com.TestNgExtentReport.Example">
+				<methods>
+					<include name="orangeHRMLogin"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="orangeHRM home page links">
+	<parameter name ="author" value="rama"/>
+		<classes>
+			<class name="com.TestNgExtentReport.Example">
+				<methods>
+					<include name="loginPageLink"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

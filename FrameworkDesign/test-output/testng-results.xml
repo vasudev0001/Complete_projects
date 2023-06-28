@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T22:18:16 IST" name="Suite" finished-at="2023-04-25T22:18:33 IST" duration-ms="17472">
+    <groups>
+      <group name="Error Handling">
+        <method signature="ErrorValidations.verifyLoginErrorMessage()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" name="verifyLoginErrorMessage" class="javaTest.ErrorValidations"/>
+        <method signature="ErrorValidations.verifyProductAddingMsg()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" name="verifyProductAddingMsg" class="javaTest.ErrorValidations"/>
+      </group> <!-- Error Handling -->
+    </groups>
+    <test started-at="2023-04-25T22:18:16 IST" name="product ordering Test" finished-at="2023-04-25T22:18:16 IST" duration-ms="17">
+    </test> <!-- product ordering Test -->
+    <test started-at="2023-04-25T22:18:16 IST" name="Error valdation" finished-at="2023-04-25T22:18:33 IST" duration-ms="17472">
+      <class name="javaTest.ErrorValidations">
+        <test-method is-config="true" signature="launchApplcation()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" started-at="2023-04-25T22:18:16 IST" name="launchApplcation" finished-at="2023-04-25T22:18:26 IST" duration-ms="10261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplcation -->
+        <test-method is-config="true" signature="launchApplcation()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" started-at="2023-04-25T22:18:16 IST" name="launchApplcation" finished-at="2023-04-25T22:18:26 IST" duration-ms="10458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplcation -->
+        <test-method signature="verifyLoginErrorMessage()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" started-at="2023-04-25T22:18:26 IST" name="verifyLoginErrorMessage" finished-at="2023-04-25T22:18:32 IST" duration-ms="5823" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: #toast-container div[class*='toast-message'] (tried for 5 second(s) with 200 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0, moz:accessibilityChecks: false, moz:buildID: 20230406114409, moz:debuggerAddress: 127.0.0.1:42028, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19356, moz:profile: C:\Users\91766\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42028/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f51b183-cf3f-4165-99a2-d24c41c47ea9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #toast-container div[class*='toast-message'] (tried for 5 second(s) with 200 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0, moz:accessibilityChecks: false, moz:buildID: 20230406114409, moz:debuggerAddress: 127.0.0.1:42028, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19356, moz:profile: C:\Users\91766\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42028/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f51b183-cf3f-4165-99a2-d24c41c47ea9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at utility.AbstractClass.waitUntilElementOnDomAndDisplayed(AbstractClass.java:42)
+at JavaWithSelenium.FrameworkDesign.LoginPage.getErrorMessage(LoginPage.java:42)
+at javaTest.ErrorValidations.verifyLoginErrorMessage(ErrorValidations.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginErrorMessage -->
+        <test-method signature="verifyProductAddingMsg()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" started-at="2023-04-25T22:18:26 IST" name="verifyProductAddingMsg" finished-at="2023-04-25T22:18:32 IST" duration-ms="5607" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 200 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0, moz:accessibilityChecks: false, moz:buildID: 20230406114409, moz:debuggerAddress: 127.0.0.1:42028, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19356, moz:profile: C:\Users\91766\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42028/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f51b183-cf3f-4165-99a2-d24c41c47ea9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [] (tried for 5 second(s) with 200 milliseconds interval)
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0, moz:accessibilityChecks: false, moz:buildID: 20230406114409, moz:debuggerAddress: 127.0.0.1:42028, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19356, moz:profile: C:\Users\91766\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42028/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f51b183-cf3f-4165-99a2-d24c41c47ea9
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at utility.AbstractClass.waitUntilAllWebElementsDisplayed(AbstractClass.java:59)
+at JavaWithSelenium.FrameworkDesign.ProductCatalogue.getProducts(ProductCatalogue.java:33)
+at JavaWithSelenium.FrameworkDesign.ProductCatalogue.getDesiredProduct(ProductCatalogue.java:40)
+at JavaWithSelenium.FrameworkDesign.ProductCatalogue.addProductToCart(ProductCatalogue.java:51)
+at javaTest.ErrorValidations.verifyProductAddingMsg(ErrorValidations.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddingMsg -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" started-at="2023-04-25T22:18:32 IST" name="closeApplication" finished-at="2023-04-25T22:18:33 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:javaTest.ErrorValidations@4d1c00d0]" started-at="2023-04-25T22:18:32 IST" name="closeApplication" finished-at="2023-04-25T22:18:33 IST" duration-ms="1236" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Timed out waiting for driver server to stop.
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f51b183-cf3f-4165-99a2-d24c41c47ea9, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0, moz:accessibilityChecks: false, moz:buildID: 20230406114409, moz:debuggerAddress: 127.0.0.1:42028, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19356, moz:profile: C:\Users\91766\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42028/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f51b183-cf3f-4165-99a2-d24c41c47ea9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2f51b183-cf3f-4165-99a2-d24c41c47ea9, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0, moz:accessibilityChecks: false, moz:buildID: 20230406114409, moz:debuggerAddress: 127.0.0.1:42028, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19356, moz:profile: C:\Users\91766\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:42028/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f51b183-cf3f-4165-99a2-d24c41c47ea9
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:132)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:437)
+at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:323)
+at baseTestEcommerce.BaseTest.closeApplication(BaseTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.ExecutionException: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+... 24 more
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:73)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:105)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+... 3 more
+Caused by: java.net.SocketException: Connection reset
+at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- javaTest.ErrorValidations -->
+    </test> <!-- Error valdation -->
+  </suite> <!-- Suite -->
+</testng-results>

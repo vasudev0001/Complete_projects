@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <test thread-count="5" name="orangeHRM home page(failed)">
+    <parameter name="author" value="vasudev"/>
+    <classes>
+      <class name="com.TestNgExtentReport.Example">
+        <methods>
+          <include name="flush"/>
+          <include name="orangeHRMLogin"/>
+          <include name="launchApplication"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- com.TestNgExtentReport.Example -->
+    </classes>
+  </test> <!-- orangeHRM home page(failed) -->
+  <test thread-count="5" name="orangeHRM home page links(failed)">
+    <parameter name="author" value="rama"/>
+    <classes>
+      <class name="com.TestNgExtentReport.Example">
+        <methods>
+          <include name="flush"/>
+          <include name="launchApplication"/>
+          <include name="loginPageLink"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- com.TestNgExtentReport.Example -->
+    </classes>
+  </test> <!-- orangeHRM home page links(failed) -->
+</suite> <!-- Failed suite [test1] -->
